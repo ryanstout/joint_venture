@@ -1,5 +1,5 @@
 [project]
-name = "stl-splitter"
+name = "joint-venture"
 version = "0.1.0"
 description = "Split large STL files into multiple printable parts"
 readme = "README.md"
@@ -16,11 +16,11 @@ dependencies = [
 ]
 
 [project.scripts]
-stl-split = "stl_splitter.cli:main"
+joint-venture = "joint_venture.cli:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/stl_splitter"]
+packages = ["src/joint_venture"]

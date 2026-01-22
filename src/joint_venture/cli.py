@@ -1,4 +1,4 @@
-"""Command-line interface for STL Splitter."""
+"""Command-line interface for Joint Venture."""
 
 from pathlib import Path
 
@@ -99,14 +99,14 @@ def main(
     
     \b
     Examples:
-      stl-split model.stl
-      stl-split model.stl --output-dir ./parts
-      stl-split model.stl --build-volume 250 250 250 --margin 10
-      stl-split model.stl --dovetails 3 --dovetail-tolerance 0.3
-      stl-split model.stl --info-only
+      joint-venture model.stl
+      joint-venture model.stl --output-dir ./parts
+      joint-venture model.stl --build-volume 250 250 250 --margin 10
+      joint-venture model.stl --dovetails 3 --dovetail-tolerance 0.3
+      joint-venture model.stl --info-only
     """
     click.echo(f"\n{'=' * 60}")
-    click.echo("STL Splitter - Split large models for 3D printing")
+    click.echo("Joint Venture - Split large models for 3D printing")
     click.echo(f"{'=' * 60}")
     
     # Show build volume info

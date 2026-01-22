@@ -27,25 +27,25 @@ uv pip install -e .
 
 ```bash
 # Basic usage - splits model to fit Bambu X1C build volume
-stl-split large_model.stl
+uv run joint-venture large_model.stl
 
 # Specify output directory
-stl-split large_model.stl --output-dir ./parts
+uv run joint-venture large_model.stl --output-dir ./parts
 
 # Custom build volume (in mm)
-stl-split large_model.stl --build-volume 200 200 200
+uv run joint-venture large_model.stl --build-volume 200 200 200
 
 # Adjust safety margin (default: 5mm)
-stl-split large_model.stl --margin 10
+uv run joint-venture large_model.stl --margin 10
 
 # Add dovetail joints for assembly (2 dovetails per cut)
-stl-split large_model.stl --dovetails 2
+uv run joint-venture large_model.stl --dovetails 2
 
 # Dovetails with custom tolerance (for looser/tighter fit)
-stl-split large_model.stl --dovetails 3 --dovetail-tolerance 0.3
+uv run joint-venture large_model.stl --dovetails 3 --dovetail-tolerance 0.3
 
 # Just analyze the mesh without splitting
-stl-split large_model.stl --info-only
+uv run joint-venture large_model.stl --info-only
 ```
 
 ## Options
