@@ -1,6 +1,8 @@
-# STL Splitter
+# Joint Venture
 
 Parts won't fit on the build plate? Automatically split them with multiple dovetails along each cut. (Something Bambu Studio can't do)
+
+![Joint Venture Demo](docs/demo.png)
 
 ## Features
 
