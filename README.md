@@ -1,6 +1,6 @@
 # STL Splitter
 
-Split large STL files into multiple printable parts that fit your 3D printer's build volume.
+Parts won't fit on the build plate? Automatically split them with multiple dovetails along each cut. (Something Bambu Studio can't do)
 
 ## Features
 
